@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-import './navbar.css';
+import Home from './home';
+import Answer from './answer';
+import Notification from './notifications';
+import Spaces from './spaces';
 
 export default class Navbar extends Component {
   render() {
     return (
       <div style={styles.Navbar}>
+        <Home/>
+        <Answer/>
+        <Spaces/>
+        <Notification/>
       </div>
     )
   }
